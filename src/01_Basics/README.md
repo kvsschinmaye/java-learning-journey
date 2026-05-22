@@ -4,6 +4,7 @@ This section contains fundamental Java concepts and basic practice programs.
 
 ## Topics Covered
 
+- Syntax of Java
 - Variables
 - Data Types
 - Operators
@@ -16,7 +17,6 @@ This section contains fundamental Java concepts and basic practice programs.
 
 ## Practice Programs
 
-- Hello World
 - Circle Area and Circumference
 - Rectangle Area and Perimeter
 - Arithmetic Operations

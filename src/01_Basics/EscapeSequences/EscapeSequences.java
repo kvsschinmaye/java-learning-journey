@@ -18,7 +18,7 @@ public class EscapeSequences {
 
         // \r -> Carriage Return
         System.out.println("\n4. Carriage Return :");
-        System.out.println("Hello\rJava");
+        System.out.println("12345\rJava");
 
         // \' -> Single Quote
         System.out.println("\n5. Single Quote :");
@@ -31,6 +31,9 @@ public class EscapeSequences {
         // \\ -> Backslash
         System.out.println("\n7. Backslash :");
         System.out.println("C:\\Users\\Chinmaye");
+
+        System.out.println("\n8. Combined Example :");
+        System.out.println("Name\t: Chinmaye\nBranch\t: CSE");
 
     }
 }
