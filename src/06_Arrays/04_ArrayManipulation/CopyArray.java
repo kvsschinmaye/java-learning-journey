@@ -50,7 +50,6 @@ public class CopyArray {
         System.out.println("\nCopied Array (Arrays.copyOf()):");
         System.out.println(Arrays.toString(arraysCopy));
 
-
         originalArray[1] = 91;
 
         System.out.println("\nAfter modifying original array:");
