@@ -4,6 +4,7 @@ public class ReverseArray {
 
     public static void reverseArray(int[] arr)
     {
+        // Swap elements from both ends moving towards the center
         for(int left = 0 , right = arr.length-1 ; left < right ; left++ , right--)
         {
                 int temp = arr[left];
