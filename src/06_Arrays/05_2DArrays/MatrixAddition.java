@@ -10,6 +10,13 @@ public class MatrixAddition {
         int n = sc.nextInt();
         int m  = sc.nextInt();
 
+        if(n <= 0 || m <= 0)
+        {
+            System.out.println("Rows and columns must be greater than 0");
+            sc.close();
+            return;
+        }
+
         int[][] matrix1 = new int[n][m];
         System.out.println("Enter the elements in Matrix 1 : ");
         for(int i = 0 ; i < n ; i++)
