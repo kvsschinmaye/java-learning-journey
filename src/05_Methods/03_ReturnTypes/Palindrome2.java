@@ -23,10 +23,10 @@ public class Palindrome2 {
 
         if(  p.isPalindrome(num))
         {
-            System.out.printf("%d is a palindrome",num);
+            System.out.printf("%d is a Palindrome",num);
         }
         else {
-            System.out.printf("%d is not a palindrome ", num);
+            System.out.printf("%d is not a Palindrome ", num);
         }
 
         sc.close();

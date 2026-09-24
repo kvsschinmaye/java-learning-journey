@@ -18,9 +18,9 @@ public class Palindrome {
 
         }
         if (reverse == originalNumber) {
-            System.out.printf("%d is a palindrome number%n", originalNumber);
+            System.out.printf("%d is a isPalindrome number%n", originalNumber);
         } else {
-            System.out.printf("%d is not a palindrome number", originalNumber);
+            System.out.printf("%d is not a isPalindrome number", originalNumber);
         }
 
         sc.close();
