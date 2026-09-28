@@ -1,0 +1,1 @@
+This folder includes practice exercises on OOP concepts.
