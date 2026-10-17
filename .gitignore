@@ -11,5 +11,5 @@ out/
 .DS_Store
 Thumbs.db
 
-.iml
+*.iml
 .xml
