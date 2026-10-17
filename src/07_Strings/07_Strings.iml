@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01_StringBasics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02_StringComparison" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_StringProblems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_StringBuilder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_StringBuffer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_StringPractice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_Stringutilities" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
