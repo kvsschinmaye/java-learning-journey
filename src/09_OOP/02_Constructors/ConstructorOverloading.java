@@ -42,7 +42,7 @@ public class ConstructorOverloading {
         co1.displayDetails();
 
         ConstructorOverloading co2 = new ConstructorOverloading();
-        System.out.println("\n\n=== Details of Non-Parameterized Constructor ===\n");
+        System.out.println("\n=== Details of Non-Parameterized Constructor ===\n");
         co2.displayDetails();
 
     }
