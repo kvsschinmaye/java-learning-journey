@@ -1,21 +1,21 @@
-    class Employee {
-        String name;
-        int employeeId;
+class Employee {
+    String name;
+    int employeeId;
 
-        void displayEmployee() {
-            System.out.println("Employee Name : " + name);
-            System.out.println("Employee ID   : " + employeeId);
-        }
+    void displayEmployee() {
+        System.out.println("\nEmployee Name : " + name);
+        System.out.println("Employee ID   : " + employeeId);
     }
+}
 
-    class Manager extends Employee {
-            String department;
+class Manager extends Employee {
+    String department;
 
-           void displayManager(){
-               displayEmployee();
-               System.out.println("Department    : " + department);
-            }
-        }
+    void displayManager(){
+        displayEmployee();
+        System.out.println("Department    : " + department);
+    }
+}
 
 public class SingleInheritance {
     public static void main(String[] args) {
