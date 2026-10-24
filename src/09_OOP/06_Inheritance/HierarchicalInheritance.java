@@ -1,4 +1,4 @@
-class Payment {
+class Payment1 {
     double amount;
 
     void displayPayment(){
@@ -6,7 +6,7 @@ class Payment {
     }
 }
 
-class CardPayment extends Payment {
+class CardPayment extends Payment1 {
     String cardType;
 
     void displayCardPayment(){
@@ -15,7 +15,7 @@ class CardPayment extends Payment {
     }
 }
 
-class UPIPayment extends Payment {
+class UPIPayment extends Payment1 {
     String upiId;
 
     void displayUPIPayment(){
