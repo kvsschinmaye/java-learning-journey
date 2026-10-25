@@ -16,10 +16,23 @@ An interface is declared using the `interface` keyword, and a class implements i
 6. A class can implement multiple interfaces.
 7. An interface cannot be instantiated directly.
 8. An interface can extend one or more interfaces.
-9. Interfaces can also contain `default`, `static`, and `private` methods, subject to Java's interface rules.
-10. An interface reference can refer to an object of a class that implements that interface.
+9. Interfaces can contain `default`, `static`, and `private` methods, subject to Java's interface rules.
+10. Default methods provide an implementation that implementing classes can inherit or override.
+11. Static interface methods belong to the interface and are called using the interface name.
+12. An interface reference can refer to an object of a class that implements that interface.
 
-## 3. Interface vs. Abstract Class
+## 3. Multiple Inheritance Through Interfaces
+
+Java does not support multiple inheritance through classes, meaning a class cannot extend multiple classes.
+
+However, a class can implement multiple interfaces, allowing it to provide behaviours defined by different interfaces.
+
+## 4. Default and Static Methods
+
+- **Default method:** Declared using the `default` keyword and includes a method body. Implementing classes can inherit or override it.
+- **Static method:** Declared using the `static` keyword and belongs to the interface. It is called using the interface name.
+
+## 5. Interface vs. Abstract Class
 
 | Interface | Abstract Class |
 |---|---|
@@ -28,16 +41,17 @@ An interface is declared using the `interface` keyword, and a class implements i
 | A class can implement multiple interfaces. | A class can extend only one class. |
 | Fields are implicitly `public`, `static`, and `final`. | Can have instance variables and other kinds of fields. |
 | Cannot have constructors. | Can have constructors. |
-| Supports abstraction through a contract. | Can contain abstract and concrete methods. |
+| Can contain abstract, default, static, and private methods. | Can contain abstract and concrete methods. |
 
-## 4. Advantages of Interfaces
+## 6. Advantages of Interfaces
 
 - Supports abstraction.
-- Enables multiple interface implementation.
+- Enables a class to implement multiple interfaces.
 - Promotes loose coupling between classes.
 - Improves flexibility and maintainability.
 - Supports runtime polymorphism through interface references.
 
-## 5. Summary
+## 7. Summary
 
-Interfaces define a common contract for classes to implement. They support abstraction, flexible program design, and runtime polymorphism by allowing different implementing classes to provide their own behaviour.
+Interfaces define common contracts for classes to implement. They support abstraction, multiple interface implementation, flexible program design, and runtime polymorphism.
+
